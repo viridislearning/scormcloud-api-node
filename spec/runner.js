@@ -1,4 +1,4 @@
-
+var path = require('path');
 var fs = require('fs');
 
 ((function(files){
@@ -12,7 +12,7 @@ var fs = require('fs');
     })(files[index]);
 
     if(fileName) {
-      global[fileName] = require('./specs/' + fileName);
+      global[fileName] = require(path.join(__dirname, 'specs', fileName));
     }
   }
 })(fs.readdirSync('./specs')));
