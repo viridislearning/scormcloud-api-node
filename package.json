@@ -1,0 +1,20 @@
+{
+  "name": "scormcloud-api",
+  "description": "Provides an API to interact with the Scormcloud Services.",
+  "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/viridislearning/scormcloud-api-node.git"
+  },
+  "main": "./scormcloud-api",
+  "dependencies": {
+    "underscore": "~1.4.x",
+    "xml2js": "~0.2.x"
+  },
+  "devDependencies": {
+    "mocha": "~1.8.x",
+    "nock": "~0.17.x"
+  },
+  "_id": "scormcloud-api@0.0.1",
+  "readme": "ERROR: No README.md file found!",
+  "_from": "scormcloud-api@~0.x.x"
+}
