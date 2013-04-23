@@ -1,7 +1,7 @@
 {
   "name": "scormcloud-api",
   "description": "Provides an API to interact with the Scormcloud Services.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "https://github.com/viridislearning/scormcloud-api-node.git"
   },
