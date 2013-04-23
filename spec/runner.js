@@ -1,6 +1,8 @@
 var path = require('path');
 var fs = require('fs');
 
+var specPath = path.join(__dirname, 'specs');
+
 ((function(files){
   for(var index = 0; index < files.length; index++) {
     var fileName = (function(file){
@@ -12,7 +14,7 @@ var fs = require('fs');
     })(files[index]);
 
     if(fileName) {
-      global[fileName] = require(path.join(__dirname, 'specs', fileName));
+      global[fileName] = require(path.join(specPath, fileName));
     }
   }
-})(fs.readdirSync('./specs')));
+})(fs.readdirSync(specPath)));
