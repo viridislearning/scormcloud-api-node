@@ -113,4 +113,19 @@ describe("ServiceRequest", function(){
       })
     });
   });
+
+  describe('#getRequestUrl', function(){
+    it('should create a proper service url.', function(){
+      var serviceUrl = url.parse(serviceRequest.getRequestUrl());
+      var serviceHost = url.parse(configuration.getServiceUrl()).host;
+
+      assert.equal(serviceUrl.host, serviceHost);
+      assert.equal(serviceUrl.pathName, serviceRequest.apiPath);
+
+      var expectedParameters = ['appid', 'origin', 'ts', 'applib', 'sig'].sort();
+      var parameters = Object.keys(queryString.parse(serviceUrl.query)).sort();
+
+      assert.deepEqual(expectedParameters, parameters);
+    })
+  })
 });
