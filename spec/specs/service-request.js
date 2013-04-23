@@ -26,14 +26,14 @@ describe("ServiceRequest", function(){
   });
 
   describe('#ServiceRequest', function(){
-    it('Should create a service request with no user parameters.', function(){
+    it('should create a service request with no user parameters.', function(){
       var expectedParameters = ['appid', 'origin', 'ts', 'applib', 'sig'].sort();
       var parameters = Object.keys(queryString.parse(url.parse(serviceRequest.getRequestUrl()).query)).sort();
       
       assert.deepEqual(parameters, expectedParameters);
     });
 
-    it('Should create a service request with user supplied parameters.', function(){
+    it('should create a service request with user supplied parameters.', function(){
       var expectedParameters = ['appid', 'origin', 'ts', 'applib', 'sig'].concat(['test', 'anotherTest']).sort();
       var request = new ServiceRequest(configuration, new RequestMethod(configuration, {
         test: 'something',
@@ -42,6 +42,75 @@ describe("ServiceRequest", function(){
       var parameters = Object.keys(queryString.parse(url.parse(request.getRequestUrl()).query)).sort();
 
       assert.deepEqual(parameters, expectedParameters);
+    });
+  });
+
+  describe('#addListener', function(){
+    it('should allow for event binding of InvalidResponse', function(){
+      var dispatched = false;
+
+      mockGateway.reply(200, "");
+
+      serviceRequest.addListener(ServiceRequest.events.InvalidResponse, function(e){
+        dispatched = true;
+      })
+
+      serviceRequest.submit(function(){
+        assert.equal(dispatched, true);
+      });
+    })
+  });
+
+  describe('#removeListener', function(){
+    it('should release an event bound on InvalidResponse', function(){
+      var dispatched = false;
+
+      mockGateway.reply(200, "");
+
+      var listener = function(){
+        dispatched = true;
+      }
+
+      serviceRequest.addListener(ServiceRequest.events.InvalidResponse, listener);
+      serviceRequest.removeListener(ServiceRequest.events.InvalidResponse, listener);
+
+      serviceRequest.submit(function(){
+        assert.equal(dispatched, false);
+      })
+    })
+  })
+
+  describe('#submit', function(){
+    it('should handle invalid xml responses.', function(){
+      mockGateway.reply(200, "taco");
+
+      serviceRequest.submit(function(r){
+        assert.equal(r.getError(), ServiceRequest.error.InvalidXml);
+      });
+    });
+
+    it('should handle empty responses.', function(){
+      mockGateway.reply(200, "");
+
+      serviceRequest.submit(function(r){
+        assert.equal(r.getError(), ServiceRequest.error.EmptyResponse);
+      });
+    });
+
+    it('should handle malformed responses.', function(){
+      mockGateway.reply(200, "<a></a>");
+
+      serviceRequest.submit(function(r){
+        assert.equal(r.getError(), ServiceRequest.error.MalformedResponse);
+      });
+    });
+
+     it('should handle and parse valid responses.', function(){
+      mockGateway.reply(200, '<?xml version="1.0" encoding="utf-8" ?><rsp stat="ok"></rsp>');
+
+      serviceRequest.submit(function(r){
+        assert.equal(r.getData().$.stat, 'ok');
+      })
     });
   });
 });
