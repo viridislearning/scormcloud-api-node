@@ -1,7 +1,7 @@
 {
-  "name": "scormcloud-api",
+  "name": "scormcloud-api-node",
   "description": "Provides an API to interact with the Scormcloud Services.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "url": "https://github.com/viridislearning/scormcloud-api-node.git"
   },
@@ -14,7 +14,14 @@
     "mocha": "~1.8.x",
     "nock": "~0.17.x"
   },
-  "_id": "scormcloud-api@0.0.1",
-  "readme": "ERROR: No README.md file found!",
-  "_from": "scormcloud-api@~0.x.x"
+  "_from": "scormcloud-api@~0.x.x",
+  "bugs": {
+    "url": "https://github.com/viridislearning/scormcloud-api-node/issues"
+  },
+  "keywords": [
+    "scormcloud",
+    "api"
+  ],
+  "author": "Arturo Rojas <arturo@silvertapllc.com>",
+  "license": "BSD-2-Clause"
 }
