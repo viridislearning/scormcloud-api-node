@@ -1,14 +1,15 @@
 {
   "name": "scormcloud-api-node",
   "description": "Provides an API to interact with the Scormcloud Services.",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "url": "https://github.com/viridislearning/scormcloud-api-node.git"
   },
   "main": "./scormcloud-api",
   "dependencies": {
     "underscore": "~1.4.x",
-    "xml2js": "~0.2.x"
+    "xml2js": "~0.2.x",
+    "moment": "~2.4.x"
   },
   "devDependencies": {
     "mocha": "~1.8.x",
