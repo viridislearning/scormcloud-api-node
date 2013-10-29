@@ -9,7 +9,7 @@
   "dependencies": {
     "underscore": "~1.4.x",
     "xml2js": "~0.2.x",
-    "momentjs": "~2.4.x"
+    "moment": "~2.4.x"
   },
   "devDependencies": {
     "mocha": "~1.8.x",
