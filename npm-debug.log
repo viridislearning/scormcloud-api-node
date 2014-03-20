@@ -1,0 +1,247 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.8
+3 info using node@v0.10.17
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\arturo.rojas\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\ARTURO~1.ROJ\\AppData\\Local\\Temp\\npm-11580-1PVgW4kD\\1395352366199-0.156597692752257\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\arturo.rojas\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile 69f3d65c-366199-0-156597692752257-tmp-tgz tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+17 verbose lock tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz C:\Users\arturo.rojas\AppData\Roaming\npm-cache\69f3d65c-366199-0-156597692752257-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 69f3d65c-366199-0-156597692752257-tmp-tgz tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+21 silly lockFile 69f3d65c-366199-0-156597692752257-tmp-tgz tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+22 verbose tar unpack C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+23 silly lockFile 12ff2931-366199-0-156597692752257-package tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package
+24 verbose lock tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package C:\Users\arturo.rojas\AppData\Roaming\npm-cache\12ff2931-366199-0-156597692752257-package.lock
+25 silly lockFile 69f3d65c-366199-0-156597692752257-tmp-tgz tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+26 verbose lock tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz C:\Users\arturo.rojas\AppData\Roaming\npm-cache\69f3d65c-366199-0-156597692752257-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry scormcloud-api.js
+35 silly gunzTarPerm modified mode [ 'scormcloud-api.js', 438, 420 ]
+36 silly gunzTarPerm extractEntry lib/common.js
+37 silly gunzTarPerm modified mode [ 'lib/common.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry lib/configuration.js
+39 silly gunzTarPerm modified mode [ 'lib/configuration.js', 438, 420 ]
+40 silly gunzTarPerm extractEntry lib/request/request-error.js
+41 silly gunzTarPerm modified mode [ 'lib/request/request-error.js', 438, 420 ]
+42 silly gunzTarPerm extractEntry lib/request/request-method.js
+43 silly gunzTarPerm modified mode [ 'lib/request/request-method.js', 438, 420 ]
+44 silly gunzTarPerm extractEntry lib/request/request-signer.js
+45 silly gunzTarPerm modified mode [ 'lib/request/request-signer.js', 438, 420 ]
+46 silly gunzTarPerm extractEntry lib/request/response.js
+47 silly gunzTarPerm modified mode [ 'lib/request/response.js', 438, 420 ]
+48 silly gunzTarPerm extractEntry lib/request/service-request.js
+49 silly gunzTarPerm modified mode [ 'lib/request/service-request.js', 438, 420 ]
+50 silly gunzTarPerm extractEntry lib/services/account/account-info.js
+51 silly gunzTarPerm modified mode [ 'lib/services/account/account-info.js', 438, 420 ]
+52 silly gunzTarPerm extractEntry lib/services/account/account-service.js
+53 silly gunzTarPerm modified mode [ 'lib/services/account/account-service.js', 438, 420 ]
+54 silly gunzTarPerm extractEntry lib/services/registration/cohorts-report.js
+55 silly gunzTarPerm modified mode [ 'lib/services/registration/cohorts-report.js', 438, 420 ]
+56 silly gunzTarPerm extractEntry lib/services/registration/learners-report.js
+57 silly gunzTarPerm modified mode [ 'lib/services/registration/learners-report.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry lib/services/registration/registration-detail.js
+59 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-detail.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry lib/services/registration/registration-info.js
+61 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-info.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry lib/services/registration/registration-report.js
+63 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-report.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry lib/services/registration/registration-service.js
+65 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-service.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry lib/services/services.json
+67 silly gunzTarPerm modified mode [ 'lib/services/services.json', 438, 420 ]
+68 silly gunzTarPerm extractEntry spec/runner.js
+69 silly gunzTarPerm modified mode [ 'spec/runner.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry spec/specs/common.js
+71 silly gunzTarPerm modified mode [ 'spec/specs/common.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry spec/specs/request-method.js
+73 silly gunzTarPerm modified mode [ 'spec/specs/request-method.js', 438, 420 ]
+74 silly gunzTarPerm extractEntry spec/specs/request-signer.js
+75 silly gunzTarPerm modified mode [ 'spec/specs/request-signer.js', 438, 420 ]
+76 silly gunzTarPerm extractEntry spec/specs/service-request.js
+77 silly gunzTarPerm modified mode [ 'spec/specs/service-request.js', 438, 420 ]
+78 silly lockFile 12ff2931-366199-0-156597692752257-package tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package
+79 silly lockFile 12ff2931-366199-0-156597692752257-package tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package
+80 silly lockFile 69f3d65c-366199-0-156597692752257-tmp-tgz tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+81 silly lockFile 69f3d65c-366199-0-156597692752257-tmp-tgz tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\tmp.tgz
+82 verbose tar pack [ 'C:\\Users\\arturo.rojas\\AppData\\Roaming\\npm-cache\\scormcloud-api-node\\0.1.0\\package.tgz',
+82 verbose tar pack   'C:\\Users\\ARTURO~1.ROJ\\AppData\\Local\\Temp\\npm-11580-1PVgW4kD\\1395352366199-0.156597692752257\\package' ]
+83 verbose tarball C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+84 verbose folder C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package
+85 silly lockFile 12ff2931-366199-0-156597692752257-package tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package
+86 verbose lock tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package C:\Users\arturo.rojas\AppData\Roaming\npm-cache\12ff2931-366199-0-156597692752257-package.lock
+87 silly lockFile 8bb4f214-cloud-api-node-0-1-0-package-tgz tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+88 verbose lock tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz C:\Users\arturo.rojas\AppData\Roaming\npm-cache\8bb4f214-cloud-api-node-0-1-0-package-tgz.lock
+89 silly lockFile 12ff2931-366199-0-156597692752257-package tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package
+90 silly lockFile 12ff2931-366199-0-156597692752257-package tar://C:\Users\ARTURO~1.ROJ\AppData\Local\Temp\npm-11580-1PVgW4kD\1395352366199-0.156597692752257\package
+91 silly lockFile 8bb4f214-cloud-api-node-0-1-0-package-tgz tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+92 silly lockFile 8bb4f214-cloud-api-node-0-1-0-package-tgz tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+93 silly lockFile b7c5f23b-cormcloud-api-node-0-1-0-package C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package
+94 verbose lock C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package C:\Users\arturo.rojas\AppData\Roaming\npm-cache\b7c5f23b-cormcloud-api-node-0-1-0-package.lock
+95 silly lockFile b7c5f23b-cormcloud-api-node-0-1-0-package C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package
+96 silly lockFile b7c5f23b-cormcloud-api-node-0-1-0-package C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package
+97 verbose tar unpack C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+98 silly lockFile 1e9b4673-cormcloud-api-node-0-1-0-package tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package
+99 verbose lock tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package C:\Users\arturo.rojas\AppData\Roaming\npm-cache\1e9b4673-cormcloud-api-node-0-1-0-package.lock
+100 silly lockFile 8bb4f214-cloud-api-node-0-1-0-package-tgz tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+101 verbose lock tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz C:\Users\arturo.rojas\AppData\Roaming\npm-cache\8bb4f214-cloud-api-node-0-1-0-package-tgz.lock
+102 silly gunzTarPerm modes [ '755', '644' ]
+103 silly gunzTarPerm extractEntry package.json
+104 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+105 silly gunzTarPerm extractEntry .npmignore
+106 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+107 silly gunzTarPerm extractEntry README.md
+108 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+109 silly gunzTarPerm extractEntry scormcloud-api.js
+110 silly gunzTarPerm modified mode [ 'scormcloud-api.js', 438, 420 ]
+111 silly gunzTarPerm extractEntry lib/common.js
+112 silly gunzTarPerm modified mode [ 'lib/common.js', 438, 420 ]
+113 silly gunzTarPerm extractEntry lib/configuration.js
+114 silly gunzTarPerm modified mode [ 'lib/configuration.js', 438, 420 ]
+115 silly gunzTarPerm extractEntry lib/request/request-error.js
+116 silly gunzTarPerm modified mode [ 'lib/request/request-error.js', 438, 420 ]
+117 silly gunzTarPerm extractEntry lib/request/request-method.js
+118 silly gunzTarPerm modified mode [ 'lib/request/request-method.js', 438, 420 ]
+119 silly gunzTarPerm extractEntry lib/request/request-signer.js
+120 silly gunzTarPerm modified mode [ 'lib/request/request-signer.js', 438, 420 ]
+121 silly gunzTarPerm extractEntry lib/request/response.js
+122 silly gunzTarPerm modified mode [ 'lib/request/response.js', 438, 420 ]
+123 silly gunzTarPerm extractEntry lib/request/service-request.js
+124 silly gunzTarPerm modified mode [ 'lib/request/service-request.js', 438, 420 ]
+125 silly gunzTarPerm extractEntry lib/services/account/account-info.js
+126 silly gunzTarPerm modified mode [ 'lib/services/account/account-info.js', 438, 420 ]
+127 silly gunzTarPerm extractEntry lib/services/account/account-service.js
+128 silly gunzTarPerm modified mode [ 'lib/services/account/account-service.js', 438, 420 ]
+129 silly gunzTarPerm extractEntry lib/services/registration/cohorts-report.js
+130 silly gunzTarPerm modified mode [ 'lib/services/registration/cohorts-report.js', 438, 420 ]
+131 silly gunzTarPerm extractEntry lib/services/registration/learners-report.js
+132 silly gunzTarPerm modified mode [ 'lib/services/registration/learners-report.js', 438, 420 ]
+133 silly gunzTarPerm extractEntry lib/services/registration/registration-detail.js
+134 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-detail.js', 438, 420 ]
+135 silly gunzTarPerm extractEntry lib/services/registration/registration-info.js
+136 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-info.js', 438, 420 ]
+137 silly gunzTarPerm extractEntry lib/services/registration/registration-report.js
+138 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-report.js', 438, 420 ]
+139 silly gunzTarPerm extractEntry lib/services/registration/registration-service.js
+140 silly gunzTarPerm modified mode [ 'lib/services/registration/registration-service.js', 438, 420 ]
+141 silly gunzTarPerm extractEntry lib/services/services.json
+142 silly gunzTarPerm modified mode [ 'lib/services/services.json', 438, 420 ]
+143 silly gunzTarPerm extractEntry spec/runner.js
+144 silly gunzTarPerm modified mode [ 'spec/runner.js', 438, 420 ]
+145 silly gunzTarPerm extractEntry spec/specs/common.js
+146 silly gunzTarPerm modified mode [ 'spec/specs/common.js', 438, 420 ]
+147 silly gunzTarPerm extractEntry spec/specs/request-method.js
+148 silly gunzTarPerm modified mode [ 'spec/specs/request-method.js', 438, 420 ]
+149 silly gunzTarPerm extractEntry spec/specs/request-signer.js
+150 silly gunzTarPerm modified mode [ 'spec/specs/request-signer.js', 438, 420 ]
+151 silly gunzTarPerm extractEntry spec/specs/service-request.js
+152 silly gunzTarPerm modified mode [ 'spec/specs/service-request.js', 438, 420 ]
+153 silly lockFile 1e9b4673-cormcloud-api-node-0-1-0-package tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package
+154 silly lockFile 1e9b4673-cormcloud-api-node-0-1-0-package tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package
+155 silly lockFile 8bb4f214-cloud-api-node-0-1-0-package-tgz tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+156 silly lockFile 8bb4f214-cloud-api-node-0-1-0-package-tgz tar://C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+157 verbose chmod C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz 644
+158 silly chown skipping for windows C:\Users\arturo.rojas\AppData\Roaming\npm-cache\scormcloud-api-node\0.1.0\package.tgz
+159 silly lockFile 3a52ce78- .
+160 silly lockFile 3a52ce78- .
+161 silly publish { name: 'scormcloud-api-node',
+161 silly publish   description: 'Provides an API to interact with the Scormcloud Services.',
+161 silly publish   version: '0.1.0',
+161 silly publish   repository: { url: 'https://github.com/viridislearning/scormcloud-api-node.git' },
+161 silly publish   main: './scormcloud-api',
+161 silly publish   dependencies: { underscore: '~1.4.x', xml2js: '~0.2.x', moment: '~2.4.x' },
+161 silly publish   devDependencies: { mocha: '~1.8.x', nock: '~0.17.x' },
+161 silly publish   _from: '.',
+161 silly publish   bugs: { url: 'https://github.com/viridislearning/scormcloud-api-node/issues' },
+161 silly publish   keywords: [ 'scormcloud', 'api' ],
+161 silly publish   author: { name: 'Arturo Rojas', email: 'arturo@silvertapllc.com' },
+161 silly publish   license: 'BSD-2-Clause',
+161 silly publish   readme: 'scormcloud-api-node\r\n===================\r\n\r\nA very rough and simple implementation of the scormcloud api. \r\n\r\nThis is work in progress that currently only partially supports 2 of the many services offered. \r\nI will be adding more services as they are needed by my company. If you need features or changes faster than\r\ni can apply, im happy to make this an open project. \r\n\r\nUsing these services are fairly easy;\r\n\r\n```javascript\r\nvar ScormCloudAPI = require(\'scormcloud-api\');\r\n\r\nvar config = new ScormCloudAPI.Configuration(\'http://cloud.scorm.com\', \'yourappid\', \'yoursecretkey\', \'orgin\');\r\n\r\nvar serviceProvider = new ScormCloudAPI(config);\r\nvar accountService = serviceProvicer.getService(\'account\');\r\n\r\naccountService.getAccountInformation(function(r){\r\n  if(r.isOk()){\r\n    var accountInfo = r.getData();\r\n    console.log(accountInfo.getFirstName() + " " + accountInfo.getLastName());\r\n  } else {\r\n    console.log(\'Request returned: \' + r.getStatus() + \' with error: \' + r.getError());\r\n  }\r\n});\r\n```\r\n',
+161 silly publish   readmeFilename: 'README.md',
+161 silly publish   _id: 'scormcloud-api-node@0.1.0',
+161 silly publish   dist: { shasum: 'a41a2cf5a3d24a99aef89974200a3d9c6c37ea67' } }
+162 verbose url raw scormcloud-api-node
+163 verbose url resolving [ 'https://registry.npmjs.org/', './scormcloud-api-node' ]
+164 verbose url resolved https://registry.npmjs.org/scormcloud-api-node
+165 info trying registry request attempt 1 at 15:52:47
+166 http PUT https://registry.npmjs.org/scormcloud-api-node
+167 http 201 https://registry.npmjs.org/scormcloud-api-node
+168 verbose url raw scormcloud-api-node
+169 verbose url resolving [ 'https://registry.npmjs.org/', './scormcloud-api-node' ]
+170 verbose url resolved https://registry.npmjs.org/scormcloud-api-node
+171 info trying registry request attempt 1 at 15:52:48
+172 http GET https://registry.npmjs.org/scormcloud-api-node
+173 http 200 https://registry.npmjs.org/scormcloud-api-node
+174 verbose uploading [ 'scormcloud-api-node/-/scormcloud-api-node-0.1.0.tgz/-rev/98-cf9842d71e75171b4da5286d03662e2e',
+174 verbose uploading   'C:\\Users\\arturo.rojas\\AppData\\Roaming\\npm-cache\\scormcloud-api-node\\0.1.0\\package.tgz' ]
+175 verbose url raw scormcloud-api-node/-/scormcloud-api-node-0.1.0.tgz/-rev/98-cf9842d71e75171b4da5286d03662e2e
+176 verbose url resolving [ 'https://registry.npmjs.org/',
+176 verbose url resolving   './scormcloud-api-node/-/scormcloud-api-node-0.1.0.tgz/-rev/98-cf9842d71e75171b4da5286d03662e2e' ]
+177 verbose url resolved https://registry.npmjs.org/scormcloud-api-node/-/scormcloud-api-node-0.1.0.tgz/-rev/98-cf9842d71e75171b4da5286d03662e2e
+178 info trying registry request attempt 1 at 15:52:49
+179 http PUT https://registry.npmjs.org/scormcloud-api-node/-/scormcloud-api-node-0.1.0.tgz/-rev/98-cf9842d71e75171b4da5286d03662e2e
+180 http 201 https://registry.npmjs.org/scormcloud-api-node/-/scormcloud-api-node-0.1.0.tgz/-rev/98-cf9842d71e75171b4da5286d03662e2e
+181 verbose publish attached [ 'scormcloud-api-node',
+181 verbose publish   'C:\\Users\\arturo.rojas\\AppData\\Roaming\\npm-cache\\scormcloud-api-node\\0.1.0\\package.tgz',
+181 verbose publish   'scormcloud-api-node-0.1.0.tgz' ]
+182 verbose url raw scormcloud-api-node/0.1.0/-tag/latest
+183 verbose url resolving [ 'https://registry.npmjs.org/',
+183 verbose url resolving   './scormcloud-api-node/0.1.0/-tag/latest' ]
+184 verbose url resolved https://registry.npmjs.org/scormcloud-api-node/0.1.0/-tag/latest
+185 info trying registry request attempt 1 at 15:52:51
+186 http PUT https://registry.npmjs.org/scormcloud-api-node/0.1.0/-tag/latest
+187 http 403 https://registry.npmjs.org/scormcloud-api-node/0.1.0/-tag/latest
+188 info trying registry request attempt 1 at 15:52:52
+189 http PUT https://registry.npmjs.org/scormcloud-api-node/0.1.0/-tag/latest
+190 http 403 https://registry.npmjs.org/scormcloud-api-node/0.1.0/-tag/latest
+191 error publish Error uploading package
+192 error Error: forbidden Cannot replace previously published version: 0.1.0: scormcloud-api-node/0.1.0/-tag/latest
+192 error     at RegClient.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:272:14)
+192 error     at Request.self.callback (C:\Program Files\nodejs\node_modules\npm\node_modules\request\index.js:148:22)
+192 error     at Request.EventEmitter.emit (events.js:98:17)
+192 error     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\index.js:891:14)
+192 error     at Request.EventEmitter.emit (events.js:117:20)
+192 error     at IncomingMessage.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\request\index.js:842:12)
+192 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+192 error     at _stream_readable.js:920:16
+192 error     at process._tickCallback (node.js:415:13)
+193 error If you need help, you may report this log at:
+193 error     <http://github.com/isaacs/npm/issues>
+193 error or email it to:
+193 error     <npm-@googlegroups.com>
+194 error System Windows_NT 6.1.7601
+195 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+196 error cwd C:\Users\arturo.rojas\Documents\GitHub\Viridis\scormcloud-api-node
+197 error node -v v0.10.17
+198 error npm -v 1.3.8
+199 verbose exit [ 1, true ]
